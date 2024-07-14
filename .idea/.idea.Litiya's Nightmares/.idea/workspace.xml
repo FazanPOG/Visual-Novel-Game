@@ -1,14 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc0854a3-2d6a-4bcf-b03b-fdd50db04497" name="Default Changelist" comment="" />
+    <list default="true" id="cc0854a3-2d6a-4bcf-b03b-fdd50db04497" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/DialogueContainer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Litiya's Nightmares/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Litiya's Nightmares/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Litiya's Nightmares/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Litiya's Nightmares/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Litiya's Nightmares/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Litiya's Nightmares/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Resources/Prefabs/Dialogue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Resources/Prefabs/Dialogue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/Dialogue.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/Dialogue.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/DialogueContainer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/SmoothTextAppearanceAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/SmoothTextAppearanceAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Static/Data/SceneNames.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Static/Data/SceneNames.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Source/Static/Data/SceneNames.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/GameRoot/Scripts/GameRoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/DialogueSO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Static/Data/Scripts/SceneNames.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Services/Scripts/Interfaces/ISceneLoaderService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C5ED7824-3908-4EF1-BC2A-D85EEC89E9FE/85/bd1d4799/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -20,10 +57,18 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Services/Scripts/Data/SceneNames.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Static/Data/SceneNames.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Installers/Scripts/ProjectInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/Dialogue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Static/Data/Scripts/SceneNames.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Static/Extensions/Scripts/ListExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/DialogueSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/SmoothTextAppearanceAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/GameRoot/Scripts/GameRoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/DialogueContainer.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="2j9J7bxMuybkjQ7FsLOn019tORg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -63,6 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720793202191</updated>
       <workItem from="1720793226665" duration="2186000" />
+      <workItem from="1720951618579" duration="6626000" />
     </task>
     <servers />
   </component>
@@ -71,7 +117,24 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="284" y="235" width="1381" height="637" key="VCS.FileHistoryDialog" timestamp="1720952696557">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="284" y="235" width="1381" height="637" key="VCS.FileHistoryDialog/0.0.1920.1034/1920.151.1366.728@0.0.1920.1034" timestamp="1720952696557" />
   </component>
 </project>

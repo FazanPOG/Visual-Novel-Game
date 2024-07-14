@@ -833,6 +833,18 @@
         </e>
         <e p="Source" t="Include">
           <e p="Modules" t="Include">
+            <e p="Dialogue" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="DialogueContainer.cs" t="Include" />
+                <e p="DialogueSO.cs" t="Include" />
+                <e p="SmoothTextAppearanceAnimation.cs" t="Include" />
+              </e>
+            </e>
+            <e p="GameRoot" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="GameRoot.cs" t="Include" />
+              </e>
+            </e>
             <e p="Installers" t="Include">
               <e p="Scripts" t="Include">
                 <e p="ProjectInstaller.cs" t="Include" />
@@ -849,7 +861,14 @@
           </e>
           <e p="Static" t="Include">
             <e p="Data" t="Include">
-              <e p="SceneNames.cs" t="Include" />
+              <e p="Scripts" t="Include">
+                <e p="SceneNames.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Extensions" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="ListExtensions.cs" t="Include" />
+              </e>
             </e>
           </e>
         </e>

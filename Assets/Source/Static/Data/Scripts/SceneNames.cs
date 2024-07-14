@@ -1,4 +1,4 @@
-namespace Source.Static.Data
+namespace Source.Static.Data.Scripts
 {
     public static class SceneNames
     {
