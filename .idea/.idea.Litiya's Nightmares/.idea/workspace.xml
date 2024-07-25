@@ -20,19 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc0854a3-2d6a-4bcf-b03b-fdd50db04497" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/DialogueContainer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Litiya's Nightmares/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Litiya's Nightmares/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Litiya's Nightmares/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Litiya's Nightmares/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Litiya's Nightmares/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Litiya's Nightmares/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Resources/Prefabs/Dialogue.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Resources/Prefabs/Dialogue.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/Dialogue.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/Dialogue.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/DialogueContainer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/SmoothTextAppearanceAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/SmoothTextAppearanceAnimation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Static/Data/SceneNames.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Static/Data/SceneNames.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Resources/Prefabs/DialogueContainer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Resources/Prefabs/DialogueContainer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Resources/ScriptableObjects/New Dialogue SO.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Resources/ScriptableObjects/New Dialogue SO.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/DialogueContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/DialogueContainer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/DialogueSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/DialogueSO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/SmoothTextAppearanceAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/DialogueTextHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/SmoothTextAppearanceAnimation.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/DialogueTextHandler.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Modules/GameRoot/Scripts/GameRoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Modules/GameRoot/Scripts/GameRoot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/Blackcraft SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/Blackcraft SDF.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +42,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/DialogueOptionSO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Installers/Scripts/GameSceneInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Factories/Scripts/Interfaces/IOptionButtonFabric.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/GameRoot/Scripts/GameRoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/DialogueSO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Static/Data/Scripts/SceneNames.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/DialogueOption.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Factories/Scripts/OptionButtonFabric.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Source/Modules/Services/Scripts/Interfaces/ISceneLoaderService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C5ED7824-3908-4EF1-BC2A-D85EEC89E9FE/85/bd1d4799/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -60,10 +64,18 @@
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/Dialogue.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Static/Data/Scripts/SceneNames.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Static/Extensions/Scripts/ListExtensions.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/DialogueSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/SmoothTextAppearanceAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Source/Modules/GameRoot/Scripts/GameRoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Services/Scripts/Interfaces/IMouseInputService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Services/Scripts/MouseInputService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/DialogueTextHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/DialogueOptionSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/DialogueOption.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Installers/Scripts/GameSceneInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/DialogueContainer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Dialogue/Scripts/DialogueSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/GameRoot/Scripts/GameRoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Factories/Scripts/Interfaces/IOptionButtonFabric.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Modules/Factories/Scripts/OptionButtonFabric.cs" />
       </list>
     </option>
   </component>
@@ -109,6 +121,8 @@
       <updated>1720793202191</updated>
       <workItem from="1720793226665" duration="2186000" />
       <workItem from="1720951618579" duration="6626000" />
+      <workItem from="1721116179541" duration="4627000" />
+      <workItem from="1721892411398" duration="7377000" />
     </task>
     <servers />
   </component>
@@ -127,6 +141,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

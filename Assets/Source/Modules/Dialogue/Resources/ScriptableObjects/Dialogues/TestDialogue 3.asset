@@ -10,8 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2ae20f71e240e604d8ee06fd466e79aa, type: 3}
-  m_Name: New Dialogue SO
+  m_Name: TestDialogue 3
   m_EditorClassIdentifier: 
   _dialogueTexts:
-  - "\u0414\u0418\u0410\u041B\u041E\u0413 1"
-  - "\u0414\u0418\u0410\u041B\u041E\u0413 2"
+  - TEST DIALOGUE 3 TEST DIALOGUE 3 TEST DIALOGUE 3 TEST DIALOGUE 3 TEST DIALOGUE
+    3
+  - TEST DIALOGUE 3 TEST DIALOGUE 3 TEST DIALOGUE 3 TEST DIALOGUE 3 TEST DIALOGUE
+    3
+  _options: []

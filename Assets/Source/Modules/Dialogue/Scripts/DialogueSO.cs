@@ -8,8 +8,11 @@ namespace Source.Modules.Dialogue.Scripts
     public class DialogueSO : ScriptableObject
     {
         [SerializeField, TextArea(1, 5)] private List<string> _dialogueTexts;
+        [SerializeField] private List<DialogueOptionSO> _options;
 
         private Queue<string> _dialogueQueue;
+
+        public IReadOnlyList<DialogueOptionSO> Options => _options.AsReadOnly();
 
         public void Init()
         {

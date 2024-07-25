@@ -836,8 +836,18 @@
             <e p="Dialogue" t="Include">
               <e p="Scripts" t="Include">
                 <e p="DialogueContainer.cs" t="Include" />
+                <e p="DialogueOption.cs" t="Include" />
+                <e p="DialogueOptionSO.cs" t="Include" />
                 <e p="DialogueSO.cs" t="Include" />
-                <e p="SmoothTextAppearanceAnimation.cs" t="Include" />
+                <e p="DialogueTextHandler.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Factories" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Interfaces" t="Include">
+                  <e p="IOptionButtonFabric.cs" t="Include" />
+                </e>
+                <e p="OptionButtonFabric.cs" t="Include" />
               </e>
             </e>
             <e p="GameRoot" t="Include">
@@ -847,6 +857,7 @@
             </e>
             <e p="Installers" t="Include">
               <e p="Scripts" t="Include">
+                <e p="GameSceneInstaller.cs" t="Include" />
                 <e p="ProjectInstaller.cs" t="Include" />
               </e>
             </e>
