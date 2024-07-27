@@ -185,6 +185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8727df9c26c4ac34d9ae2ff00c3221da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _firstDialogue: {fileID: 11400000, guid: 71644f347b1c1ce41a701008178ab2f5, type: 2}
   _textComponent: {fileID: 5389600344313450804}
 --- !u!114 &614141242183613795
 MonoBehaviour:

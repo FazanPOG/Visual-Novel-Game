@@ -853,6 +853,16 @@
             <e p="GameRoot" t="Include">
               <e p="Scripts" t="Include">
                 <e p="GameRoot.cs" t="Include" />
+                <e p="GameStateMachine.cs" t="Include" />
+                <e p="GameStates" t="Include">
+                  <e p="BootState.cs" t="Include" />
+                  <e p="EndGameState.cs" t="Include" />
+                  <e p="GameState.cs" t="Include" />
+                </e>
+                <e p="Interfaces" t="Include">
+                  <e p="IGameState.cs" t="Include" />
+                  <e p="IGameStateMachine.cs" t="Include" />
+                </e>
               </e>
             </e>
             <e p="Installers" t="Include">

@@ -1,5 +1,8 @@
 using Source.Modules.Dialogue.Scripts;
+using Source.Modules.GameRoot.Scripts.GameStates;
+using Source.Modules.GameRoot.Scripts.Interfaces;
 using UnityEngine;
+using Zenject;
 
 namespace Source.Modules.GameRoot.Scripts
 {
@@ -7,15 +10,19 @@ namespace Source.Modules.GameRoot.Scripts
     {
         private const string DialogueResourcesPath = "ScriptableObjects/Dialogues";
         
-        [SerializeField] private DialogueContainer _dialogueContainer;
-        [SerializeField] private DialogueSO _dialogue;
+        private IGameStateMachine _gameStateMachine;
+        
+        [Inject]
+        private void Construct(IGameStateMachine gameStateMachine)
+        {
+            _gameStateMachine = gameStateMachine;
+        }
         
         private void Start()
         {
             InitDialogues();
-            
-            _dialogueContainer.Init();
-            _dialogueContainer.StartDialogue(_dialogue);
+
+            _gameStateMachine.EnterIn<BootState>();
         }
 
         private void InitDialogues()

@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using Source.Modules.Factories.Scripts.Interfaces;
 using TMPro;
@@ -10,6 +9,7 @@ namespace Source.Modules.Dialogue.Scripts
     [RequireComponent(typeof(DialogueTextHandler))]
     public class DialogueContainer : MonoBehaviour
     {
+        [SerializeField] private DialogueSO _firstDialogue;
         [SerializeField] private TextMeshProUGUI _textComponent;
 
         private IOptionButtonFabric _optionButtonFabric;
@@ -34,12 +34,11 @@ namespace Source.Modules.Dialogue.Scripts
         public void Init()
         {
             _textHandler.Init(_textComponent);
+            StartDialogue(_firstDialogue);
         }
         
         public void StartDialogue(DialogueSO dialogue)
         {
-            Debug.Log("Start dialogue");
-            
             _optionButtonFabric.DestroyAllOptions();
             _currentDialogue = dialogue;
             _currentDialogueTexts = _currentDialogue.GetDialogueQueueClone();
@@ -48,6 +47,9 @@ namespace Source.Modules.Dialogue.Scripts
 
         private void ShowNextText()
         {
+            if(_currentDialogueTexts.Count == 0)
+                return;
+            
             if (_currentDialogueTexts.Count == 1)
                 CreateDialogueOptions(_currentDialogue.Options);
             
